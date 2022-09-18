@@ -21,7 +21,7 @@ def fib(n):
     while len(nums) < n:
         nums.append(a)
         # It is crucial to re-assign both variables at the same time
-        # because each are dependent on the other's pre-iteration.
+        # because each are dependent on the other's previous value.
         a, b = b, a + b
 
     return nums
@@ -42,7 +42,7 @@ def fib_gen(n):
     for index in range(n):
         yield a
         # It is crucial to re-assign both variables at the same time
-        # because each are dependent on the other's pre-iteration.
+        # because each are dependent on the other's previous value.
         a, b = b, a + b
 
 
