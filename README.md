@@ -1,5 +1,5 @@
 # fibonacci_sequence_calculator
-Calculated Fibonacci Sequence to nth terms using three methods.
+Calculated Fibonacci Sequence to nth term using lists, generators, and recursions.
 
 The Fibonacci Series is a sequence of integers where each integer is the sum of the previous two, except for the first two integers in the sequence. This program demonstrates this sequence using three methods: lists, generators, and recursion.
 
